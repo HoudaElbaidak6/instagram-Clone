@@ -31,6 +31,7 @@ buttons[0].addEventListener("click", function () {
 });
 
 toggle.addEventListener("click", function () {
-  toggle.classList.toggle("fa-moon");
+  toggle.classList.toggle('fa-sun');
   body.classList.toggle("dark-mode")
+  console.log("clicked")
 });
