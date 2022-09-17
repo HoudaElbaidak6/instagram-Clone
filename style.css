@@ -1,0 +1,69 @@
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  font-size: 2em;
+}
+header > i {
+  cursor: pointer;
+  color: #ffd700 !important;
+}
+
+h2 {
+  margin-bottom: 9px;
+}
+#picandbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  /* color: black; */
+}
+
+img {
+  width: 400px;
+  height: 500px;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 340px;
+}
+#likeDiv,
+#dislikeDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+i {
+  font-size: 1.8em;
+  color: red !important;
+  cursor: pointer;
+}
+
+#likeBtn,
+#dislikeBtn {
+  padding: 5px 5px;
+  background: none;
+  border: none;
+  outline: none;
+  color: black;
+}
+
+p {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white !important;
+}
+
+
