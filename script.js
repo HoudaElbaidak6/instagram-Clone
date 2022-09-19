@@ -56,3 +56,4 @@ function dislikeCounter() {
   }
   outputs[1].innerHTML = localStorage.dislikeCount;
 }
+// localStorage.setItem("likes",JSON.stringify(likeCount))
