@@ -34,9 +34,13 @@ buttons[0].addEventListener("click", function () {
 });
 
 toggle.addEventListener("click", function () {
-  toggle.classList.toggle("fa-sun");
+  // toggle.classList.toggle("fa-sun");
   body.classList.toggle("dark-mode");
-  console.log("clicked");
+  if (body.classList.contains("dark-mode")) {
+    toggle.classList.replace("fa-moon", "fa-sun");
+  } else {
+    toggle.classList.replace("fa-sun", "fa-moon");
+  }
 });
 
 function likeCounter() {
